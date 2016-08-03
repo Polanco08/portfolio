@@ -1,0 +1,26 @@
+{
+  "name": "gpolanco_portfolio",
+  "version": "0.1.0",
+  "description": "Porfolio personal",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Polanco08/portfolio.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Geordano Polanco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Polanco08/portfolio/issues"
+  },
+  "homepage": "https://github.com/Polanco08/portfolio#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "materialize-css": "^0.97.7"
+  }
+}
