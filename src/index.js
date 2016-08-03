@@ -1,8 +1,13 @@
-/**
- *
- */
-var numeros = [400, 20,569,22, -3];
+var page = require('page');
+var main = document.getElementById("main-container");
 
-var numerosmas1 = numeros.map(n => n + 1);
+page('/', function(ctx, next) {
+  main.innerHTML = "Main page <a href='/sobremi'>Sobre mi</a>";
+})
 
-console.log(numerosmas1);
+page('/sobremi', function(ctx, next) {
+  main.innerHTML = "Sobre mi page <a href='/'>Home</a>";
+})
+
+
+page();

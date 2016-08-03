@@ -6,12 +6,23 @@ var app = express();
 app.set('view engine', 'pug');
 
 //Set static file support
+//---------------------------------------------------------
 app.use('/static', express.static('public'));
 
+
+// Rutas de la aplicación
+//---------------------------------------------------------
 app.get('/', function (req, res) {
   res.render('index');
 })
 
+app.get('/sobremi', function (req, res) {
+  res.render('index');
+})
+
+
+// Definición del server
+//---------------------------------------------------------
 app.listen(3000, function (err) {
   if (err) return console.log('Hubo un error'), process.exit(1);
 

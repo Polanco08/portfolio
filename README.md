@@ -9,17 +9,6 @@
 
 Por ahora es el proceso de instalación del proyecto en local, más adelante seguro cambia ya que se irán agregando más automatizaciones de tareas y otras configuraciones.
 
-##Herramientas Utilizadas en el desarrollo:
-
-  1. GULP: Para automatizar las tareas, como compilado de css, javascript y html con jade(pug).
-  2. SASS: Pre procesador de css.
-  3. GIT: para el control de versiones.
-  4. Node y Express: Para la parte del servidor simple de desarrollo.
-  5. npm: para la gestión de dependencias.
-  6. Browserify.js: package bundle, une todas las dependencias css y js y las une en un archivo app.js y app.css.
-  7. Babel.js: Transforma ECMAScript 6 a ECMAScript 5, con esto puedo utilizar las nuevas funcionalidades de JavaScript.
-
-
 ##Estructura del proyecto:
 
     ROOR
@@ -40,6 +29,23 @@ Por ahora es el proceso de instalación del proyecto en local, más adelante seg
       |-- package.json
       |-- README.md
       |-- server.js
+
+## Dependencias del proyecto:
+1. jQuery
+2. Express
+3. page.js
+
+
+##Herramientas Utilizadas en el desarrollo:
+
+1. GULP: Para automatizar las tareas, como compilado de css, javascript y html con jade(pug).
+2. SASS: Pre procesador de css.
+3. GIT: para el control de versiones.
+4. Node y Express: Para la parte del servidor simple de desarrollo.
+5. npm: para la gestión de dependencias.
+6. Browserify.js: package bundle, une todas las dependencias css y js y las une en un archivo app.js y app.css.
+7. Babel.js: Transforma ECMAScript 6 a ECMAScript 5, con esto puedo utilizar las nuevas funcionalidades de JavaScript.
+
 
 ## Proceso de desarrollo
 
