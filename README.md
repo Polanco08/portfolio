@@ -23,6 +23,7 @@
         |-- index.js
         |-- index.scss
 
+      |-- assets
       |-- .gitignore
       |-- Gulpfile.js
       |-- index.html
