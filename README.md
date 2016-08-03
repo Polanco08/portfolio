@@ -29,3 +29,10 @@
       |-- package.json
       |-- README.md
       |-- server.js
+
+## Proceso de desarrollo
+
+1. Crear estructura básica de carpetas
+2. Iniciar git y agregar un repositorio remoto
+3. Iniciar npm para que sea nuestro gestor de dependencias "npm init"
+4. configurar Gulfile.js las tareas iniciales

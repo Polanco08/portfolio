@@ -2,7 +2,11 @@ var express = require('express');
 
 var app = express();
 
+//Set view engine in express
 app.set('view engine', 'pug');
+
+//Set static file support
+app.use(express.static('public'));
 
 app.get('/', function (req, res) {
   res.render('index');
