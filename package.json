@@ -4,9 +4,6 @@
   "description": "Porfolio personal",
   "author": "Geordano Polanco",
   "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
     "portfolio"
   ],
@@ -16,9 +13,16 @@
     "materialize-css": "^0.97.7"
   },
   "devDependencies": {
+    "babelify": "^7.3.0",
+    "browserify": "^13.1.0",
     "gulp": "^3.9.1",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.3.2",
-    "pug": "^0.1.0"
+    "pug": "^0.1.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  },
+  "scripts": {
+    "build": "gulp"
   }
 }

@@ -16,6 +16,8 @@ Por ahora es el proceso de instalación del proyecto en local, más adelante seg
   3. GIT: para el control de versiones.
   4. Node y Express: Para la parte del servidor simple de desarrollo.
   5. npm: para la gestión de dependencias.
+  6. Browserify.js: package bundle, une todas las dependencias css y js y las une en un archivo app.js y app.css.
+  7. Babel.js: Transforma ECMAScript 6 a ECMAScript 5, con esto puedo utilizar las nuevas funcionalidades de JavaScript.
 
 
 ##Estructura del proyecto:
@@ -26,7 +28,7 @@ Por ahora es el proceso de instalación del proyecto en local, más adelante seg
         |-- app.js
         |-- images
 
-      |-- src
+      |-- src : Archivos fuentes javaScript del cliente.
         |-- modelos...
         |-- index.js
         |-- index.scss
