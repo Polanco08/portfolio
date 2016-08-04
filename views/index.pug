@@ -5,8 +5,8 @@ html(lang="en")
     title=title
 
     link(rel='stylesheet' href='static/css/app.css' type='text/css')
-  
     meta(name='viewport' content='width=device-width, initial-scale=1, user-scalable=no')
+  
     link(rel='apple-touch-icon', sizes='57x57', href='static/images/apple-icon-57x57.png')
     link(rel='apple-touch-icon', sizes='60x60', href='static/images/apple-icon-60x60.png')
     link(rel='apple-touch-icon', sizes='72x72', href='static/images/apple-icon-72x72.png')
@@ -27,25 +27,29 @@ html(lang="en")
       
   body
     header#main-header
-      h1 Geordano Polanco
-      small FrontEnd Developer
-      ul#menu
-        li
-          a(href="/" class="menu-item") Inicio
-        li
-          a(href="/habilidades" class="menu-item") Habilidades
-        li
-          a(href="/portfolio" class="menu-item") Portfolio
-        li
-          a(href="/sobre-mi" class="menu-item") Sobre Mí
-        li
-          a(href="/contacto" class="menu-item") Contacto
+      nav
+        .nav-wrapper
+          a.brand-logo(href='#') Geordano Polanco
+          ul#nav-mobile.right.hide-on-med-and-down
+            li
+              a(href="/" class="menu-item") Inicio
+            li
+              a(href="/habilidades" class="menu-item") Habilidades
+            li
+              a(href="/portfolio" class="menu-item") Portfolio
+            li
+              a(href="/sobre-mi" class="menu-item") Sobre Mí
+            li
+              a(href="/contacto" class="menu-item") Contacto
         
         
+    section#main-container.container
+      
+    footer.page-footer
+        .container
+          | © 2014 Copyright Text
+          a.grey-text.text-lighten-4.right(href='#!') More Links
     
-    section#main-container
-    
-    footer#main-footer
-      p &copy; Geordano Polanco
-    
+    script(src='https://code.jquery.com/jquery-2.2.3.min.js', integrity='sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=', crossorigin='anonymous')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js')
     script(src="static/app.js" type="application/javascript")

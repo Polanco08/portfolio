@@ -12,17 +12,17 @@ Por ahora es el proceso de instalación del proyecto en local, más adelante seg
 ##Estructura del proyecto:
 
     ROOR
-      |-- public
+      |-- public/
         |-- app.css
         |-- app.js
         |-- images
 
-      |-- src : Archivos fuentes javaScript del cliente.
+      |-- src/ : Archivos fuentes javaScript del cliente.
         |-- modelos [habilidades, homepage, portfolio, sobremi, contacto]
         |-- index.js
         |-- index.scss
 
-      |-- assets
+      |-- assets/
       |-- .gitignore
       |-- Gulpfile.js
       |-- index.html
