@@ -20,6 +20,9 @@ app.get('/sobremi', function (req, res) {
   res.render('index');
 })
 
+app.get('/contacto', function (req, res) {
+  res.render('index');
+})
 
 // Definición del server
 //---------------------------------------------------------

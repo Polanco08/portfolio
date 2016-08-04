@@ -30,7 +30,7 @@ gulp.task('assets', function() {
 // Procesa nuestros archivos javascripts
 //---------------------------------------------
 function compile(watch) {
-  var bundle = watchify(browserify('./src/index.js', {debug: true}));
+  var bundle = watchify(browserify('./src/index.js'));
 
   function rebundle() {
     bundle
@@ -44,7 +44,7 @@ function compile(watch) {
 
   if (watch) {
     bundle.on('update', function () {
-      console.log('--> Bundling js files...');
+      console.log('--> Bundling...');
       rebundle();
     });
   }
@@ -52,7 +52,7 @@ function compile(watch) {
   rebundle();
 }
 
-gulp.task('build', function () { compile(); });
+gulp.task('build', function () {  return compile(); });
 gulp.task('watch', function () { return compile(true); });
 
 
