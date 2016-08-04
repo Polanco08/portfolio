@@ -13,24 +13,24 @@ app.use('/static', express.static('public'));
 // Rutas de la aplicación
 //---------------------------------------------------------
 app.get('/', function (req, res) {
-  res.render('index');
+  res.render('index', { title: 'gpolanco.com' });
 })
 
-// app.get('/sobremi', function (req, res) {
-//   res.render('index');
-// })
-//
-// app.get('/contacto', function (req, res) {
-//   res.render('index');
-// })
-//
-// app.get('/habilidades', function (req, res) {
-//   res.render('index');
-// })
-//
-// app.get('/portfolio', function (req, res) {
-//   res.render('index');
-// })
+app.get('/sobremi', function (req, res) {
+  res.render('index', { title: 'gpolanco.com - Sobre mi.' });
+})
+
+app.get('/contacto', function (req, res) {
+  res.render('index', { title: 'gpolanco.com - Contacto.' });
+})
+
+app.get('/habilidades', function (req, res) {
+  res.render('index', { title: 'gpolanco.com - Habilidades.' });
+})
+
+app.get('/portfolio', function (req, res) {
+  res.render('index', { title: 'gpolanco.com - Mis trabajos.' });
+})
 
 // Definición del server
 //---------------------------------------------------------

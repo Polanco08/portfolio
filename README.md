@@ -18,7 +18,7 @@ Por ahora es el proceso de instalación del proyecto en local, más adelante seg
         |-- images
 
       |-- src : Archivos fuentes javaScript del cliente.
-        |-- modelos...
+        |-- modelos [habilidades, homepage, portfolio, sobremi, contacto]
         |-- index.js
         |-- index.scss
 
@@ -34,7 +34,9 @@ Por ahora es el proceso de instalación del proyecto en local, más adelante seg
 1. jQuery
 2. Express
 3. page.js
-
+4. empty-element:
+5. yo-yo:
+6. title:
 
 ##Herramientas Utilizadas en el desarrollo:
 
